@@ -108,48 +108,104 @@
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
           <div class="container">
-    
             <div class="section-title">
               <h2>Projects</h2>
               <p>Inviting you to check out some of my recent projects.</p>
-            </div>
-    
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+
+        
+              <div class="row justify-content-center px-3 px-md-5">
+                  
+                  <div class="col-lg-4 col-md-6 my-3">
+                      <div class="card my-3 h-100" title="Churn Prediction for an Online Bank">
+                          <div class="card-head">
+                              <h5 class="card-title bg-transparent mt-1"></h5><strong>Churn Prediction for an Online Bank</strong></h5>
+                          </div>
+                          <div style="max-height: 300px; overflow: hidden;">
+                              <img class="card-img-top" src="assets/img/portfolio/portfolio-1.jpg" alt="Churn Prediction for Brass" style="object-fit: contain;">
+                          </div>
+                          <div class="card-body bg-transparent p-3">
+                              
+                              <div class="card-text bg-transparent secondary-font">
+                                In this project for Brass, an online banking startup, I trained a classifier to predict whether a customer is going to churn or not, potentially saving millions for the bank. This problem came with two caveats. First, the bank did not have an official definition of churn, and so I was responsible for exploring the data to define churn for my modeling. Second, due to security concerns, the bank did not share much demographic data, and so I had to engineer 11 new features for my modeling.
+                              </div>
+                          </div>
+                          
+                          <div class="card-footer py-3 d-flex justify-content-center">
+                              
+                              
+                              <span>
+                                  <a class="btn btn-sm" href="https://github.com/stanleyaz/Predicting-Customer-Churn" target="_blank">
+                                      <strong>CHECK IT OUT</strong>
+                                  </a>
+                              </span>
+                              
+                          </div>
+                          
+                      </div>
                   </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  
+                  <div class="col-lg-4 col-md-6 my-3">
+                      <div class="card my-3 h-100" title="Predicting Poverty with Satelitte Images">
+                          <div class="card-head">
+                              <h5 class="card-title bg-transparent mt-1"></h5><strong>Predicting Poverty w/Satelitte Images</strong></h5>
+                          </div>
+                          <div style="max-height: 300px; overflow: hidden;">
+                              <img class="card-img-top" src="assets/img/portfolio/portfolio-2.jpg" alt="Predicting Poverty using Satelitte Images" style="object-fit: contain;">
+                          </div>
+                          <div class="card-body bg-transparent p-3">
+                              
+                              <div class="card-text bg-transparent secondary-font">
+                                I (alongside two colleagues) predicted whether a given village in Africa suffers from extreme poverty by using only the geographic coordinates of that village and satellite imagery that can be freely and automatically downloaded using those coordinates. We trained convolutional neural networks and used ensemble modeling techniques to develop a production model that correctly identified extreme poverty in 79% of cases in which it appears while maintaining an overall predictive accuracy of 85% across all cases.
+                              </div>
+                          </div>
+                          
+                          <div class="card-footer py-3 d-flex justify-content-center">
+                              
+                              
+                              <span>
+                                  <a class="btn btn-sm" href="https://github.com/stanleyaz/Predicting-Poverty-with-Satellite-Images" target="_blank">
+                                      <strong>CHECK IT OUT</strong>
+                                  </a>
+                              </span>
+                              
+                          </div>
+                          
+                      </div>
                   </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  
+                  <div class="col-lg-4 col-md-6 my-3">
+                      <div class="card my-3 h-100" title="Rivian Automotive’s Subreddit Classification">
+                          <div class="card-head">
+                              <h5 class="card-title bg-transparent mt-1"></h5><strong>Rivian Automotive’s Subreddit Problem</strong></h5>
+                          </div>
+                          <div style="max-height: 300px; overflow: hidden;">
+                              <img class="card-img-top" src="assets/img/portfolio/portfolio-3.jpg" alt="Rivian Automotive’s Subreddit Problem" style="object-fit: contain;">
+                          </div>
+                          <div class="card-body bg-transparent p-3">
+                              
+                              <div class="card-text bg-transparent secondary-font">
+                                In this fictional exercise for electric carmaker, Rivian, I collected 9000 rows of data from two subreddits - `r/cars` and `r/electricvehicles` - using the Pushshift API. Then I applied Natural Language Processing (NLP) to train a classifier on which subreddit a given post came from. My final stacked classifier model achieved accuracy and F1 scores of about 90%.
+      
+                              </div>
+                          </div>
+                          
+                          <div class="card-footer py-3 d-flex justify-content-center">
+                              
+                              
+                              <span>
+                                  <a class="btn btn-sm" href="https://github.com/stanleyaz/rivian-reddit-nlp-classification" target="_blank">
+                                      <strong>CHECK IT OUT</strong>
+                                  </a>
+                              </span>
+                              
+                          </div>
+                          
+                      </div>
                   </div>
-                </div>
+                  
+                  
               </div>
-    
-            </div>
-    
           </div>
-        </section><!-- End Portfolio Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
